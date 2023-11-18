@@ -48,23 +48,6 @@ Download the Flower, Fern, or Lego dataset from [here](https://drive.google.com/
 |   |   └── ...
 ```
 
-### Training
-
-To train a low-res `lego` transformer-based NeRF:
-```
-python run_nerf.py --config configs/lego.txt
-```
-
-To train a low-res `fern` transformer-based NeRF:
-```
-python run_nerf.py --config configs/fern.txt
-```
-
-To train a low-res `flower` transformer-based NeRF:
-```
-python run_nerf.py --config configs/flower.txt
-```
-
 ### Generate videos with our pre-trained models
 
 The pre-trained transformer-based NeRF models for the Lego, Flower, and Fern datasets can be downloaded from [here](https://drive.google.com/drive/folders/1YDTc_y1C9Iit4nbcsC234R7PvBu85Zgw?usp=sharing). Place the directories in `./logs` in order to test it later. See the following directory structure for an example:
@@ -82,3 +65,20 @@ python run_nerf.py --config configs/{DATASET}.txt --render_only
 ```
 
 replace `{DATASET}` with `fern` | `flower` | `lego` | etc.
+
+### Training
+
+To train a low-res `lego` transformer-based NeRF:
+```
+python run_nerf.py --config configs/lego.txt
+```
+
+To train a low-res `fern` transformer-based NeRF:
+```
+python run_nerf.py --config configs/fern.txt
+```
+
+To train a low-res `flower` transformer-based NeRF:
+```
+python run_nerf.py --config configs/flower.txt
+```
