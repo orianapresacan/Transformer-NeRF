@@ -12,7 +12,7 @@ Here are some videos generated with the transformer-based NeRF:
 
 ```
 git clone https://github.com/orianapresacan/Transformer-NeRF.git
-cd nerf-pytorch
+cd Transformer-NeRF
 pip install -r requirements.txt
 ```
 
