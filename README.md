@@ -49,13 +49,16 @@ Download the Flower, Fern, or Lego dataset from [here](https://drive.google.com/
 
 ### Generate videos with our pre-trained models
 
-The pre-trained transformer-based NeRF models for the Lego, Flower, and Fern datasets can be downloaded from [here](https://drive.google.com/drive/folders/1YDTc_y1C9Iit4nbcsC234R7PvBu85Zgw?usp=sharing). Place the directories in `./logs` in order to test it later. See the following directory structure for an example:
+The pre-trained transformer-based NeRF models for the Lego, Flower, and Fern datasets can be downloaded from [here](https://drive.google.com/drive/folders/1YDTc_y1C9Iit4nbcsC234R7PvBu85Zgw?usp=sharing). Place the directories in `./logs` in order to test it. See the following directory structure for an example:
 
 ```
 ├── logs 
 │   ├── fern_test    # downloaded logs
+│   │    └── 200000.tar
 │   ├── flower_test  # downloaded logs
+│   │    └── 200000.tar
 │   ├── lego_test    # downloaded logs
+│   │    └── 200000.tar
 ```
 
 Run 
