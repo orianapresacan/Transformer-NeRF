@@ -36,9 +36,16 @@ You will also need the [LLFF code](http://github.com/fyusion/llff) (and COLMAP) 
 
 ### Quick Start
 
-Download data for two example datasets: `lego` and `fern`
-```
-bash download_example_data.sh
+Download the Flower, Fern, or Lego dataset from [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1). Place the downloaded dataset according to the following directory structure:
+```                                                                                           
+├── data                                                                                                                                                                                                       
+│   ├── nerf_llff_data                                                                                                  
+│   │   └── fern    # downloaded llff dataset                                                                                                        
+│   │   └── flower  # downloaded llff dataset                                                                                  
+|   |   └── ...
+|   ├── nerf_synthetic
+|   |   └── lego    # downloaded synthetic dataset
+|   |   └── ...
 ```
 
 ### Training
@@ -69,43 +76,5 @@ Run
 ```
 python run_nerf.py --config configs/{DATASET}.txt --render_only
 ```
----
 
-### More Datasets
-Other datasets can be downloaded from [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1). Place the downloaded dataset according to the following directory structure:
-```
-├── configs                                                                                                       
-│   ├── ...                                                                                     
-│                                                                                               
-├── data                                                                                                                                                                                                       
-│   ├── nerf_llff_data                                                                                                  
-│   │   └── fern                                                                                                                             
-│   │   └── flower  # downloaded llff dataset                                                                                  
-│   │   └── horns   # downloaded llff dataset
-|   |   └── ...
-|   ├── nerf_synthetic
-|   |   └── lego
-|   |   └── ship    # downloaded synthetic dataset
-|   |   └── ...
-```
-
----
-
-To train NeRF on different datasets: 
-
-```
-python run_nerf.py --config configs/{DATASET}.txt
-```
-
-replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc.
-
----
-
-To test NeRF trained on different datasets: 
-
-```
-python run_nerf.py --config configs/{DATASET}.txt --render_only
-```
-
-replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc.
-
+replace `{DATASET}` with `fern` | `flower` | `lego` | etc.
