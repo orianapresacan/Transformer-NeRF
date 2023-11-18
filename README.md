@@ -50,16 +50,20 @@ Download the Flower, Fern, or Lego dataset from [here](https://drive.google.com/
 
 ### Training
 
-To train a low-res `lego` NeRF:
+To train a low-res `lego` transformer-based NeRF:
 ```
 python run_nerf.py --config configs/lego.txt
 ```
 
-To train a low-res `fern` NeRF:
+To train a low-res `fern` transformer-based NeRF:
 ```
 python run_nerf.py --config configs/fern.txt
 ```
----
+
+To train a low-res `flower` transformer-based NeRF:
+```
+python run_nerf.py --config configs/flower.txt
+```
 
 ### Generate videos with our pre-trained models
 
