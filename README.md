@@ -4,8 +4,7 @@ This project is based on the [PyTorch implementation](https://github.com/yenchen
 
 Here are some videos generated with the transformer-based NeRF:
 
-<img src="https://drive.google.com/uc?export=download&id=1g9T9gB0Sg4DGRI6XwPCKgXD977cTODIk" width="350" height="250"/>
-<img src="https://drive.google.com/uc?export=download&id=1r51B7FvVX7Jb8W2j6nS_DnDvav3kyEPb" width="250" height="250"/>
+<img src="https://drive.google.com/uc?export=download&id=1g9T9gB0Sg4DGRI6XwPCKgXD977cTODIk" width="350" height="250"/> <img src="https://drive.google.com/uc?export=download&id=1r51B7FvVX7Jb8W2j6nS_DnDvav3kyEPb" width="250" height="250"/>
 <img src="https://drive.google.com/uc?export=download&id=1rt1IGQP1cHjqMincggHzLyOOeXAF8qFl" width="350" height="250"/>
 
 ## Installation
