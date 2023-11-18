@@ -1,6 +1,6 @@
 # Transformer-NeRF
 
-This project is based on the [PyTorch implementation](https://github.com/yenchenlin/nerf-pytorch) of [NeRF](http://www.matthewtancik.com/nerf) with key changes made to the neural network architecture. The primary alteration involves replacing the Multi-Layer Perceptron (MLP) with a transformer. More exactly, two new classes, NeRFTransformer and TransformerBlock, were added in the run_nerf_helpers.py file.
+This project is based on the [PyTorch implementation](https://github.com/yenchenlin/nerf-pytorch) of [NeRF](http://www.matthewtancik.com/nerf) with key changes made to the neural network architecture. The primary modification involves replacing the Multi-Layer Perceptron (MLP) with a transformer. More exactly, two new classes, **NeRFTransformer** and **TransformerBlock**, were added in the run_nerf_helpers.py file.
 
 Here are some videos generated with the transformer-based NeRF:
 
