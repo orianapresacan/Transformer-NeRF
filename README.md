@@ -4,8 +4,8 @@ This project is based on the [PyTorch implementation](https://github.com/yenchen
 
 Here are some videos generated with the transformer-based NeRF:
 
-<img src="https://drive.google.com/uc?export=download&id=1g9T9gB0Sg4DGRI6XwPCKgXD977cTODIk" width="350" height="250"/> <img src="https://drive.google.com/uc?export=download&id=1r51B7FvVX7Jb8W2j6nS_DnDvav3kyEPb" width="250" height="250"/>
-<img src="https://drive.google.com/uc?export=download&id=1d8yjiPCTPTYR9KEAJlYjMeZAPM-1chuR" width="350" height="250"/>
+<img src="https://drive.google.com/uc?export=download&id=1g9T9gB0Sg4DGRI6XwPCKgXD977cTODIk" width="350" height="250"/> <img src="https://drive.google.com/uc?export=download&id=1d8yjiPCTPTYR9KEAJlYjMeZAPM-1chuR" width="350" height="250"/>
+<img src="https://drive.google.com/uc?export=download&id=1r51B7FvVX7Jb8W2j6nS_DnDvav3kyEPb" width="250" height="250"/>
 
 ## Installation
 
@@ -27,6 +27,12 @@ pip install -r requirements.txt
   - configargparse
   
 </details>
+
+**PyTorch with CUDA Support**
+This project requires PyTorch with CUDA support. Please ensure you have a CUDA-compatible version of PyTorch installed in your environment. 
+
+**Memory Considerations**
+This project's model was trained on an NVIDIA RTX 3090 GPU. This GPU has substantial memory capacity, which was needed to handle the computational demands and memory requirements of the training process. If you use a GPU with less memory than the RTX 3090 (24 GB), you may encounter memory limitations.
 
 
 ### Quick Start
