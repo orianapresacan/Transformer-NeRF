@@ -673,10 +673,10 @@ def train():
             else:
                 # Default is smoother render_poses path
                 images = None
-            for i in range(5):
-                im = Image.fromarray((images[i] * 255).astype(np.uint8))
-                im.save(f"logs/{i}.png")
-            exit()
+            # for i in range(5):
+            #     im = Image.fromarray((images[i] * 255).astype(np.uint8))
+            #     im.save(f"logs/{i}.png")
+            # exit()
 
             testsavedir = os.path.join(basedir, expname, 'renderonly_{}_{:06d}'.format('test' if args.render_test else 'path', start))
             os.makedirs(testsavedir, exist_ok=True)
