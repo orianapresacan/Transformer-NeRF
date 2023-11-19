@@ -29,9 +29,11 @@ pip install -r requirements.txt
 </details>
 
 **PyTorch with CUDA Support**
+
 This project requires PyTorch with CUDA support. Please ensure you have a CUDA-compatible version of PyTorch installed in your environment. 
 
 **Memory Considerations**
+
 This project's model was trained on an NVIDIA RTX 3090 GPU. This GPU has substantial memory capacity, which was needed to handle the computational demands and memory requirements of the training process. If you use a GPU with less memory than the RTX 3090 (24 GB), you may encounter memory limitations.
 
 
